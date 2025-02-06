@@ -69,8 +69,8 @@
     color: #434455;}
 /* #endregion tech skills */
 /* #region our team */
- .ourteam, .ourteam-list {background-color: #f4f4fd;}
-.ourteam-head{
+.ourteam-list {background-color: #ffffff;}
+.ourteam-head{text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -91,7 +91,7 @@
   color: #434455;}
 /* #endregion our team */
 /* #region our porfolio */
-.portfolio{
+.portfolio{text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -137,7 +137,7 @@
    
    /*#region button */
    .business{background-color: #2e2f42;}
-   .business-head {
+   .business-head { text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -151,6 +151,8 @@
     color: #fff;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;}
-        button:hover{box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        button:hover,
+        button:focus{box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
           background: #404bbf;}
+
    /*#endregion button */
